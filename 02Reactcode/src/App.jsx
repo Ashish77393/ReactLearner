@@ -6,6 +6,17 @@ function App() {
           setCounter(counter)
           }
 
+
+
+//     //  rendering data if increase by four than use prevCounter that are a parameter of Usestate
+//       function setCount(){
+//           setCounter(prevCounter=>prevCounter+1)
+//           setCounter(prevCounter=>prevCounter+1)
+//           setCounter(prevCounter=>prevCounter+1)
+//           setCounter(prevCounter=>prevCounter+1)
+//           }
+
+
       function getCount(){
           if(counter===0){
          let data= document.createElement('h1')
