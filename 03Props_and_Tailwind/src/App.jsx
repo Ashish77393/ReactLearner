@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>This is used Tailwind and Props</h1>
+      <h1 className="text-3xl font-bold p-2 ">This is used Tailwind and Props</h1>
       <Card nature="Ashish" des="this is a good view"/>
        <Card nature="Sanjiv" />
     </>
